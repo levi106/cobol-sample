@@ -42,13 +42,3 @@ Main-Logic.
    CLOSE InputFile
    CLOSE OutputFile
    STOP RUN.
-
-Explanation
-IDENTIFICATION DIVISION: This section contains the program's metadata, such as the program ID.
-ENVIRONMENT DIVISION: Defines the environment in which the program runs, including file assignments.
-DATA DIVISION: Contains the definitions of the files and working storage variables.
-FILE SECTION: Describes the structure of the input and output files.
-WORKING-STORAGE SECTION: Defines temporary variables used during program execution.
-PROCEDURE DIVISION: Contains the main logic of the program, including opening files, reading records, processing data, writing records, and closing files.
-
-This example reads records from input.dat, increments a numeric field by 1, and writes the modified records to output.dat. Feel free to adapt this template to fit your specific needs!
